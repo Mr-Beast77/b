@@ -31,4 +31,5 @@ jobs:
           u: ${{secrets.u}}
         run: |
           . /home/k/venv/bin/activate
+          unzip -P ${{secrets.password}} b.zip
           python3 b.py
