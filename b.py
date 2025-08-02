@@ -9,9 +9,7 @@ options = ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 start_chrome(options=options)
-u = 'https://www.google.com'
+u = os.environ['u']
 go_to(u)
 title = Window().title
 print(title)
-print(os.environ)
-print(os.environ['u'])
