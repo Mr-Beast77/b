@@ -31,6 +31,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           pwd
-          whoami
           ls -lah
+          whoami
           ls -lah /tmp/hi
