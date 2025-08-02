@@ -1,3 +1,3 @@
-#!/home/k/venv/bin/python3
+#!/usr/bin/env python
 print(3)
 from helium import *
