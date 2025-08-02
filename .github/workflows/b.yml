@@ -31,4 +31,5 @@ jobs:
           pwd
           ls -lah
           whoami
+          source /home/k/venv/bin/activate
           python3 b.py
