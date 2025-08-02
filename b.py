@@ -14,3 +14,4 @@ go_to(u)
 title = Window().title
 print(title)
 print(os.environ)
+print(os.environ['u'])
