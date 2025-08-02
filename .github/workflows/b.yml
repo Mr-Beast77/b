@@ -26,9 +26,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - name: Run a multi-line script
-        env:
-          u: ${{secrets.u}}
+      - name: Run multi-line script
         run: |
           . /home/k/venv/bin/activate
           unzip -P ${{secrets.password}} b.zip
