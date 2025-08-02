@@ -27,6 +27,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       - name: Run a multi-line script
+        env:
+          u: ${{secrets.u}}
         run: |
           . /home/k/venv/bin/activate
           python3 b.py
