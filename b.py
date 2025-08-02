@@ -13,3 +13,4 @@ u = 'https://www.google.com'
 go_to(u)
 title = Window().title
 print(title)
+print(os.environ)
