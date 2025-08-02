@@ -21,8 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: apon77/helium:latest
-      volumes:
-        - /home/mrbeast77bd/actions-runner:/tmp/hi    
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -33,4 +31,4 @@ jobs:
           pwd
           ls -lah
           whoami
-          ls -lah /tmp/hi
+          python3 b.py
