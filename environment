@@ -1,3 +1,2 @@
 #!/bin/bash
-export TZ=Asia/Dhaka
 export init=123
