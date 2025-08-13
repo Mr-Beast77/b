@@ -31,4 +31,4 @@ jobs:
           . /home/k/venv/bin/activate
           . ./environment
           unzip -P ${{secrets.password}} b.zip
-          python3 b.py
+          python3 -u b.py
