@@ -29,6 +29,8 @@ jobs:
       - name: Run multi-line script
         run: |
           . /home/k/venv/bin/activate
+          pwd
+          ls
           . environment
           unzip -P ${{secrets.password}} b.zip
           python3 b.py
