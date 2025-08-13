@@ -1,2 +1,3 @@
 #!/bin/bash
+export TZ=Asia/Thimbu
 export init=123
