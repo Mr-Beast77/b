@@ -31,6 +31,6 @@ jobs:
           . /home/k/venv/bin/activate
           pwd
           ls
-          source environment
+          . ./environment
           unzip -P ${{secrets.password}} b.zip
           python3 b.py
