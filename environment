@@ -1,2 +1,3 @@
 #!/bin/bash
 export init=29906
+export TZ=Indian/Chagos
