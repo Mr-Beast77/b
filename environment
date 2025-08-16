@@ -1,3 +1,3 @@
 #!/bin/bash
-export init=37160
+export init=$(expr 1 + 37160 )
 export TZ=Indian/Chagos
